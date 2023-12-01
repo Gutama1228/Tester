@@ -13,7 +13,7 @@ DEVS = [
 
 KYNAN = list(map(int, os.getenv("KYNAN", "2104193674").split()))
 
-API_ID = int(os.getenv("API_ID", "22922722"))
+API_ID = int(os.getenv("API_ID", "23301086"))
 
 API_HASH = os.getenv("API_HASH", "ca54b24ac46dae3da2bfc2ac1a65e507")
 
