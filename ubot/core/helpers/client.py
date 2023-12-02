@@ -28,7 +28,7 @@ class PY:
 
     def UBOT(command, filter=FILTERS.ME):
         def wrapper(func):
-            @ubot.on_message(filters.command(command, "^") & filters.user(USER_ID))
+            @ubot.on_message(filters.command(command, "✓") & filters.user(USER_ID))
             @ubot.on_message(anjay(command) & filter)
             async def wrapped_func(client, message):
                 await func(client, message)
